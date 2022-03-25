@@ -1,0 +1,19 @@
+table{
+    text-align: center;
+    font-weight: 400;
+    border: 1px solid red;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 580px;
+    height: 510px;
+}
+
+td{
+    border: 1px solid red;
+    font-weight: bold;
+    background-color: green
+}
+body{
+    background-color: yellow;
+}
