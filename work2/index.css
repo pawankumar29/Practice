@@ -17,9 +17,9 @@ header{
     display: flex;
     flex-direction: column;
 
-    align-items: center;
+    align-it                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ems: center;
     justify-content: center;
-   
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 }
 
 .header-content{
@@ -83,7 +83,39 @@ header{
     text-decoration: none;
 }
 
-@media  screen and(max-width:850px){
+.title{
+    text-align: center;
+    position: absolute;
+    top:110%;
+    left: 40%;
+}
+
+.row{
+    position: relative;
+    top:20%;
+    left:0%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row img{
+    padding-top: 200px;
+    width: 470px;
+    
+
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: 0px 80px;
+    padding: 0px;
+}
+
+@media  only screen and(max-width:850px){
       .navbar{
           padding: 0;
       }
