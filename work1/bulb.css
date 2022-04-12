@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 101, 12);
+    width:50%;
+    position: absolute;
+    left:25vw;
+    top:10vh;
+}
+
+body{
+    background-color: rgb(16, 104, 75);
+}
+
+.one{
+    background-color: rgb(31, 168, 83);
+    padding: 5%;
+    text-align: center;
+    cursor: pointer;
+
+    width: 50vw;
+}
+
+.two{
+    background-color: rgb(163, 24, 133);
+    padding: 5%;
+    cursor: pointer;
+    width: 50vw;
+    text-align: center;
+}
+

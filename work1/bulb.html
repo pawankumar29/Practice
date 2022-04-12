@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <link rel="stylesheet" href="bulb.css">
+</head>
+<body>
+    <div class="container">
+     <div class="one">
+         <img id="1" src="img1/pic_bulboff.gif">
+         <br>
+         <br>
+         <button onclick="on()">Turn On</button>
+         <br>
+         <br>
+         <button onclick="off()">Turn Off</button>
+     </div>
+     <hr>
+     <div class="two">
+         <img id="2" src="img1/pic_bulboff.gif">
+         <br>
+         <br>
+         <br>
+         <button onclick="onOff()"  id="button2">Turn On/Off</button>
+     </div>
+
+     </div>
+
+    
+
+     <script>
+
+        
+         function on(){
+              document.getElementById("1").src="img1/pic_bulbon.gif"
+         }
+
+         function off(){
+              document.getElementById("1").src="img1/pic_bulboff.gif"
+         }
+        
+        var Status = false;
+        function onOff(){
+            if(!Status){
+                document.getElementById("2").src="img1/pic_bulbon.gif"
+                document.getElementById("button2").innerText="TURN ON"
+
+            }
+            else{
+                document.getElementById("2").src="img1/pic_bulboff.gif"
+                document.getElementById("button2").innerText="TURN OFF"
+            }
+
+       
+
+             Status = !Status;
+        }
+
+
+        
+     
+        
+
+
+
+     </script>
+</body>
+</html>
+
+
