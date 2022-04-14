@@ -37,11 +37,11 @@
 }*/
 
 
-let panel1=document.getElementsByClassName("panel-1")
-let panel2=document.getElementsByClassName("panel-2")
-let panel3=document.getElementsByClassName("panel-3")
-let panel4=document.getElementsByClassName("panel-4")
-let panel5=document.getElementsByClassName("panel-5")
+let panel1=document.getElementByClassName("panel-1")
+let panel2=document.getElementByClassName("panel-2")
+let panel3=document.getElementByClassName("panel-3")
+let panel4=document.getElementByClassName("panel-4")
+let panel5=document.getElementByClassName("panel-5")
 
 function resetActivePanel(){
     panel1.classList.remove('active')
@@ -52,7 +52,7 @@ function resetActivePanel(){
 }
 function select(panelId){
    resetActivePanel()
-   document.getElementsByClassName(panelId).classList.add('active')
+   document.getElementByClassName(panelId).classList.add('active')
 
    
 }
