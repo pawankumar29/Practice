@@ -1,0 +1,53 @@
+.stop{
+    width:50vw;
+   
+    border:1px solid red;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;                                       
+}
+
+.panel-1{
+    background-image:url("img/photo-1.avif");
+}
+
+.panel-2{
+    background-image:url("img/phot0-2.avif");
+}
+.panel-3{
+    background-image:url("img/photo-3.avif");
+}
+.panel-4{
+    background-image:url("img/photo-4.avif");
+}
+.panel-5{
+    background-image:url("img/photo-5.avif");
+}
+
+.panel{
+    height:80vh;
+
+    width: 20vw;
+
+    border-radius: 80px;
+    flex:1;
+
+}
+
+.photon{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+body{
+    background-color: aqua;
+}
+
+.active{
+    flex:5;
+}
