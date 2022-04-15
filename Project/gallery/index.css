@@ -48,6 +48,6 @@ body{
     background-color: aqua;
 }
 
-.active{
+.panel.active{
     flex:5;
 }
